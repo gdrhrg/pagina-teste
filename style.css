@@ -8,7 +8,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: gold;
+    background: linear-gradient(gold, purple);
     color: black;
 }
 
@@ -19,4 +19,28 @@ body{
 
 .banner{
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+.elenco{
+ display: flex; 
+ justify-content: space-around; 
+ margin-bottom: 20px; 
+}
+
+.ator{
+    text-align: center;
+}
+
+.ator img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 7.5px;
+    box-shadow: 5px 5px 10px black;
 }
